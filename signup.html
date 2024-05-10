@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="user.png" />
+</head>
+<body>
+    <div class="position-absolute start-50 translate-middle-x mt-5 shadow w-50 p-5 rounded-5">
+        <h1 class="text-primary text-center">Smart Login System</h1>
+        <input type="text" class="form-control mt-5 " id="userName" placeholder="Enter Your name" >
+        <div class="text-center alert alert-warning my-2">Valid User Name contain captial letter in the first then small letters like this "Max"</div>            
+        <input type="email" class="form-control mt-3" id="userEmail" placeholder="Enter Your email">
+        <div class="text-center alert alert-warning my-2">Valid User Email should contain in the end @gmail.com like this "Michael@gmail.com"</div>   
+        <input type="password" class="form-control mt-3" id="userPass" placeholder="Enter password">
+        <div class="text-center alert alert-warning my-2">Minimum eight characters, at least one upper case English letter, one lower case English letter, one number and one special character</div>   
+        <p class="text-center text-success mt-1 d-none" id="successful">Success Registration</p>
+        <p class="text-center text-danger mt-1 d-none" id="wrong1">Wrong entry</p>
+        <p class="text-center text-danger mt-1 d-none" id="wrong2">username or email is already existed</p>
+        <button class="d-block btn btn-outline-primary mb-1 mt-4 w-100" id="btn-signup">Sign Up</button>
+        <p class="text-white text-center ">You have an account? <a href="index.html" class="text-decoration-none text-white">Sign in</a></p>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+</html>

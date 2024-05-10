@@ -1,0 +1,21 @@
+body
+{
+    background-color: #24353F;
+}
+input
+{
+    background-color: #24353F !important;
+    color: white !important;
+}
+input::placeholder
+{
+    color: grey !important;
+}
+a:hover
+{
+    text-decoration: underline !important;
+}
+#logout ,#login
+{
+    text-decoration: none !important;
+}
